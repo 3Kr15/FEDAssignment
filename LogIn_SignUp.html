@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rabbit-Land_Home</title>  
+    <link href = "style.css" rel = "stylesheet" type="text/css"> 
+
+    <!--linking fonts from google fonts into the website for better visualization-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&family=Josefin+Slab&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!--header tab for display of profile, Website name and logo-->
+    <header>
+        <a href="LogIn_SignUp.html">
+            <img src="https://i.pinimg.com/564x/73/99/f4/7399f4c28699b5840df55a53a588e015.jpg" alt="Avatar" class="avatar">
+        </a>
+        <h>Rabbit-Land</h>
+        <img src="https://i.pinimg.com/564x/62/ab/73/62ab738a4d6993321ecdf67b1a83d6d3.jpg" alt="Logo" class="logo">
+    </header>
+    
+    <!--Navigation across other tabs-->
+    <nav>
+        <a href="Index.html">Home</a>
+        <a href="Info_On_Rabbits.html">Info on Rabbits</a>
+        <a href="Healthcare_and_Hygiene.html">Healthcare and hygiene</a>
+        <a href="Testimonies.html">Testimonies</a>
+        <a href="Membership.html">Membership</a>
+    </nav>
+    </header>
+    <!--space to include all features of login-->
+    <div id="login">
+        <form>
+            <h1>Login</h1>
+            <!--Allow the user to type in username-->
+            <div class="input">
+                <input type="text" placeholder="Username" required> 
+            </div>
+            <!--Allow the user to type in password-->
+            <div class="input">
+                <input type="password" placeholder="Password" required>
+            </div>
+            <!--Checkbox to check with user whether or not to remember-->
+            <div class="remember">
+                <label>
+                    <input type="checkbox">Remember me
+                </label><a href="#">Forgot password?</a>
+            </div>
+            <!--Button to submit in data entered-->
+            <button type="submit" id="submit">Login</button>
+
+            <!--To register forif user is new-->
+            <div class="register">
+                <p>Don't have an account? <a href="#">Register</a></p>
+            </div>
+        </form>
+    </div>
+    <!--link to javascript-->
+     <script src="script.js"></script>
+</body>
+</html>
